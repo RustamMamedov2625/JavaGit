@@ -1,0 +1,2 @@
+# JavaGit
+For learning Java
