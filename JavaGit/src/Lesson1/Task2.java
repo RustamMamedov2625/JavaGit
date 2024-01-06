@@ -28,8 +28,8 @@ public class Task2 {
     public static void task1_2() throws IOException{
         System.out.println("Lesson 1 Task 2 exercise 2");
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        String numberA = reader.readLine();
         System.out.println("Введите число а");
+        String numberA = reader.readLine();
         int a = Integer.parseInt(numberA);
         System.out.println("Введите число b");
         String numberB = reader.readLine();
@@ -37,46 +37,52 @@ public class Task2 {
         if(a >= b)
             System.out.println("Некорректный ввод");
         else {
-            for(int i = a; i < 10; ++i){
+            for(int i = a; i < b; ++i){
                 if(i % 5 == 0 && i % 10 != 0)
-                    System.out.println(i);
+                    System.out.print(i + " ");
             }
         }
 
     }
 
-    public static void task1_3(){
-        System.out.println("Lesson 1 Task 1 exercise 3");
-        int i = 0;
-        while(i < 10){
-            System.out.println("JAVA");
-            i++;
+    public static void task1_3() throws IOException{
+        System.out.println("Lesson 1 Task 2 exercise 3");
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        System.out.println("Введите число а");
+        String numberA = reader.readLine();
+        int a = Integer.parseInt(numberA);
+        System.out.println("Введите число b");
+        String numberB = reader.readLine();
+        int b = Integer.parseInt(numberB);
+        if(a >= b)
+            System.out.println("Некорректный ввод");
+        else {
+            int i = a;
+            while( i < b){
+                ++i;
+                if(i % 5 == 0 && i % 10 != 0)
+                    System.out.print(i + " ");
+            }
         }
+
     }
     public static void task1_4(){
-        System.out.println("Lesson 1 Task 1 exercise 4");
-        int year = 1980;
-        while(year < 2021){
-            System.out.println("Олимпиада " + year + " года");
-            year += 4;
+        System.out.println("Lesson 1 Task 2 exercise 4");
+        System.out.println("Введите число x");
+        Scanner scanner = new Scanner(System.in);
+        String stringX = scanner.nextLine();
+        double x = Double.parseDouble(stringX);
+        double y;
+        if(x >= 5){
+            y = (x * x - 10)/x + 7;
         }
+        else if(x > -3 && x < 5){
+            y = (x + 3)*(x * x - 2);
+        }
+        else y = 420;
+
+        System.out.println("Значение y равно: " + y);
     }
 
-    public static void task1_5(){
-        System.out.println("Lesson 1 Task 1 exercise 5");
-        for(int year = 1980; year < 2021; year += 4)
-            System.out.println("Олимпиада " + year + " года");
-    }
-
-    public static void task1_6() throws IOException {
-        System.out.println("Lesson 1 Task 1 exercise 6");
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        System.out.println("Введите цифру от 1 до 9");
-        String digit = reader.readLine();
-        int k = Integer.parseInt(digit);
-        for (int i = 1; i < 10; i++)
-            System.out.println(i + " x " + k + " = " + i * k);
-
-    }
 
 }

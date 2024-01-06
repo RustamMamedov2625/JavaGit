@@ -18,5 +18,7 @@ public class Main {
         System.out.println("Task2");
         Task2.task1_1();
         Task2.task1_2();
+        Task2.task1_3();
+        Task2.task1_4();
     }
 }
