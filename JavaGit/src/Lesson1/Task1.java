@@ -51,9 +51,7 @@ public class Task1 {
         System.out.println("Введите цифру от 1 до 9");
         String digit = reader.readLine();
         int k = Integer.parseInt(digit);
-        reader.close();
         for (int i = 1; i < 10; i++)
             System.out.println(i + " x " + k + " = " + i * k);
-        reader.close();
     }
 }

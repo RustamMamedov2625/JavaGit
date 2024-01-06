@@ -22,7 +22,7 @@ public class Task2 {
         else if(floors > 8)
             System.out.println("Многоэтажный дом");
 
-        scanner.close();
+
     }
 
     public static void task1_2() throws IOException{
@@ -34,7 +34,6 @@ public class Task2 {
         System.out.println("Введите число b");
         String numberB = reader.readLine();
         int b = Integer.parseInt(numberB);
-        reader.close();
         if(a >= b)
             System.out.println("Некорректный ввод");
         else {
@@ -43,7 +42,7 @@ public class Task2 {
                     System.out.println(i);
             }
         }
-        reader.close();
+
     }
 
     public static void task1_3(){
@@ -75,10 +74,9 @@ public class Task2 {
         System.out.println("Введите цифру от 1 до 9");
         String digit = reader.readLine();
         int k = Integer.parseInt(digit);
-        reader.close();
         for (int i = 1; i < 10; i++)
             System.out.println(i + " x " + k + " = " + i * k);
-        reader.close();
+
     }
 
 }
