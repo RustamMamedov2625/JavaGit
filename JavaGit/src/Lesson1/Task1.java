@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Scanner;
 
-// Lesson 1 tasks from 1.docx
+// Task1 1 tasks from 1.docx
 public class Task1 {
     public static void task1_1(){
         System.out.println("Lesson 1 Task 1 exercise 1");

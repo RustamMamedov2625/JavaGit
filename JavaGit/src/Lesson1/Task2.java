@@ -1,5 +1,5 @@
 package Lesson1;
-
+// Task 2  from 2.docx
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
