@@ -15,7 +15,6 @@ public class Task2 {
 
         }
         result += substringOriginal;
-        System.out.println(substringOriginal);
         return result;
     }
 }

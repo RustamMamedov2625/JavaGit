@@ -10,7 +10,11 @@ public class Main {
         /*System.out.println("¬ведите строку дл€ Task1");
         System.out.println( Task1.camelCase(new String(reader.readLine())) );
         */
+        /*
         System.out.println("¬ведите строку дл€ Task2");
         System.out.println(Task2.reverseWords(new String(reader.readLine())));
+        */
+        System.out.println("¬ведите строку дл€ Task1");
+        System.out.println(JadenCase.toJadenCase(new String(reader.readLine())));
     }
 }
