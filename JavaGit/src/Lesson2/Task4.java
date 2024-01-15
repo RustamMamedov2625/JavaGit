@@ -24,7 +24,8 @@ public class Task4 {
     }
 
     public static void task5(){
-
+        System.out.println("Lesson 2 Task 4 exercise 5");
+        Task4Task5CheckPrime.main(new String[]{});
     }
 
 }
