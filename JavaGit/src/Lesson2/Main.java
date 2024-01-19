@@ -21,6 +21,12 @@ public class Main {
         //Task4.task3();
         //Task4.task4();
         // Task4.task5();
-        Task5.task1();
+        //Task5.task1();
+        //Task5.task2();
+        //Task5.task3();
+        //Task6.task1();
+        //Task6.task2();
+        //Task6.task3();
+        Task6.task4();
     }
 }
