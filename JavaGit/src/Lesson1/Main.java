@@ -41,6 +41,11 @@ public class Main {
         Task5.task2();
         Task5.task3();
         Task5.task4();
+        Task5.task1();
+        Task5.task2();
+        Task5.task3();
+        Task5.task4();
+
     }
 
 }
